@@ -41,7 +41,7 @@ const Body = () => {
             .
           </span>
           <Link
-            href={"https://forms.gle/aZLcYAz9xZqMBFpSA"}
+            href={"https://forms.gle/yrUuCnoCYNwr26pF6"}
             target="_blank"
             className="block py-4 px-4 bg-primary text-light text-center font-semibold rounded-xl duration-150 border border-primary hover:bg-light hover:text-primary"
           >
@@ -73,7 +73,7 @@ const Body = () => {
             Full Undergraduate Scholarship till completion
           </p>
           {/* <Link
-            href={"https://forms.gle/aZLcYAz9xZqMBFpSA"}
+            href={"https://forms.gle/yrUuCnoCYNwr26pF6"}
             target="_blank"
             className="block w-full max-w-[600px] my-4 mx-auto py-4 px-4 bg-primary text-light text-center font-semibold rounded-xl duration-150 border border-primary hover:bg-light hover:text-primary"
           >
@@ -161,7 +161,7 @@ const Body = () => {
           </li>
         </ul>
         <Link
-          href={"https://forms.gle/aZLcYAz9xZqMBFpSA"}
+          href={"https://forms.gle/yrUuCnoCYNwr26pF6"}
           target="_blank"
           className="block w-full max-w-[600px] my-4 mx-auto py-4 px-4 bg-primary text-light text-center font-semibold rounded-xl duration-150 border border-primary hover:bg-primary/95"
         >
