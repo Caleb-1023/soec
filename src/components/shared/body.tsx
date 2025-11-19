@@ -84,7 +84,7 @@ const Body = () => {
       <div className="p-10 md:p-14 lg:p-20 flex flex-col-reverse lg:flex-row items-center justify-between gap-10 bg-light">
         <div className="p-0 lg:p-10 bgwhite rounded-md">
           <Image
-            src={"/theme_2.png"}
+            src={"/theme_3.png"}
             alt=""
             width={460}
             height={230}
@@ -114,8 +114,8 @@ const Body = () => {
         <ul className="p-5 list-disc lg:list-inside md:text-2xl space-y-2">
           <li>Essays should be composed in English.</li>
           <li>Word limit: 1500 words.</li>
-          <li>Essay timeline: September 2nd to October 2nd.</li>
-          <li>Submission deadline: October 2nd.</li>
+          {/* <li>Essay timeline: September 2nd to October 2nd.</li> */}
+          <li>Submission deadline: December 15th 2025.</li>
           {/* <li>
             Submission portal: An online platform (e.g., Google Forms) will be
             established for essay submissions.

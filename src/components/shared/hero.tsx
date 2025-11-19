@@ -34,7 +34,7 @@ const Hero = () => {
             From #ashtags to Action
           </h1>
           <h2 className={`${delius.className} text-xl md:text-4xl`}>
-            Gen Z's Blueprint for a Better Nigeria
+            Tackling Youth Unemployment in Nigeria
           </h2>
           <p className="text-sm md:text-base">Powered by Love In Action Foundation</p>
         </div>
