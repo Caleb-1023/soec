@@ -23,7 +23,7 @@ const Hero = () => {
           />
         </Link>
         <Link
-          href={"https://forms.gle/aZLcYAz9xZqMBFpSA"}
+          href={"https://forms.gle/yrUuCnoCYNwr26pF6"}
           target="_blank"
           className="absolute top-10 right-5 lg:right-10 py-2 px-4 bg-primary text-light font-semibold rounded-xl duration-150 border border-primary hover:bg-light hover:text-primary"
         >
