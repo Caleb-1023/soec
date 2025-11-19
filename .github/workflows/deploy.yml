@@ -1,0 +1,19 @@
+name: soec frontend deployment script for main
+on: 
+    push: 
+        branches:
+            - main
+jobs:
+    deploy:
+        runs-on: self-hosted
+
+        steps: 
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v2
+              with:
+                    node-version: 20
+            - run: npm install
+            - run: npm run build
