@@ -28,7 +28,7 @@ const Hero = () => {
         >
           Apply
         </Link>
-        <div className="absolute top-1/2 left-1/2 w-4/5 md:w-3/4 lg:2/3 space-y-4 text-light text-center -translate-y-1/2 -translate-x-1/2">
+        <div className="absolute top-1/2 left-1/2 w-4/5 md:w-3/4 lg:w-2/3 space-y-4 text-light text-center -translate-y-1/2 -translate-x-1/2">
           <h1 className={`${bowlby.className} text-4xl md:text-8xl`}>
             From #ashtags to Action
           </h1>
