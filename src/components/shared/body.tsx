@@ -35,8 +35,10 @@ const Body = () => {
             also propose innovative and practical strategies that can be
             implemented to promote positive change in Nigeria.{" "}
             <span className="font-black">
-              Essay topics may revolve around creative solutions in areas such
-              as energy, digital education, youth unemployment, and the economy
+              Essay themes can center on creative approaches to addressing youth
+              unemployment in Nigeria, including vocational skills training,
+              digital education, entrepreneurial development, and broader
+              economic opportunities
             </span>
             .
           </span>
@@ -98,10 +100,11 @@ const Body = () => {
             Theme
           </p>
           <p className=" md:text-2xl text-justify">
-            Participants will explore critical issues facing Nigeria and propose
-            practical solutions. Essay topics may revolve around creative
-            solutions in areas such as energy, digital education, youth
-            unemployment, and the economy.
+            Participants will examine the pressing challenge of youth
+            unemployment in Nigeria and propose practical, forward-looking
+            solutions. Essays may focus on skill development, digital
+            empowerment, entrepreneurship, and other innovative strategies for
+            building a sustainable future for Nigerian youth.
           </p>
         </div>
       </div>

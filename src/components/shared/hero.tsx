@@ -15,12 +15,11 @@ const Hero = () => {
   return (
     <div className="h-screen max-w-[2000px] bg-[url('/soec_1.jpg')] bg-center bg-cover">
       <div className="relative h-full bg-black/70">
-        <Link href={"http://steveogah.com/"} className="absolute top-10 left-5 lg:left-10">
-          <Image
-            src={logo}
-            alt=""
-            className="w-28 md:w-36"
-          />
+        <Link
+          href={"http://steveogah.com/"}
+          className="absolute top-10 left-5 lg:left-10"
+        >
+          <Image src={logo} alt="" className="w-28 md:w-36" />
         </Link>
         <Link
           href={"https://forms.gle/yrUuCnoCYNwr26pF6"}
@@ -29,14 +28,17 @@ const Hero = () => {
         >
           Apply
         </Link>
-        <div className="absolute top-1/2 left-1/2 md:w-2/3 space-y-4 text-light text-center -translate-y-1/2 -translate-x-1/2">
+        <div className="absolute top-1/2 left-1/2 w-4/5 md:w-3/4 lg:2/3 space-y-4 text-light text-center -translate-y-1/2 -translate-x-1/2">
           <h1 className={`${bowlby.className} text-4xl md:text-8xl`}>
             From #ashtags to Action
           </h1>
-          <h2 className={`${delius.className} text-xl md:text-4xl`}>
-            Tackling Youth Unemployment in Nigeria
+          <h2 className={`${delius.className} text-lg md:text-3xl`}>
+            Tackling Youth Unemployment in Nigeria: Building a Sustainable
+            Future Through Skill Development and Entrepreneurship
           </h2>
-          <p className="text-sm md:text-base">Powered by Love In Action Foundation</p>
+          <p className="text-sm md:text-base">
+            Powered by Love In Action Foundation
+          </p>
         </div>
         <button
           onClick={() => {
