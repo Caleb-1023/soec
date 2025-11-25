@@ -21,11 +21,11 @@ const Body = () => {
           />
         </div>
         <p className="basis-1/2 space-y-4">
-          <span
+          {/* <span
             className={`${indie.className} block text-center lg:text-left text-3xl md:text-4xl`}
           >
             "From Hashtags to Action: Gen Z's Blueprint for a Better Nigeria"{" "}
-          </span>
+          </span> */}
           <span className="block md:text-xl text-justify">
             The Love in Action Foundation is committed to empowering the less
             privileged and spreading the love of Jesus through practical acts of
@@ -65,7 +65,7 @@ const Body = () => {
       </div>
 
       <div className="p-10 md:p-14 lg:p-20 flex flex-col-reverse lg:flex-row items-center justify-between gap-10 bg-light">
-        <div className="p-0 lg:p-10 bgwhite rounded-md">
+        {/* <div className="p-0 lg:p-10 bgwhite rounded-md">
           <Image
             src={"/theme_3.png"}
             alt=""
@@ -73,8 +73,8 @@ const Body = () => {
             height={230}
             className=""
           />
-        </div>
-        <div className="basis-1/2">
+        </div> */}
+        <div className="basis1/2 text-center">
           <p
             className={`${bowlby.className} mb-4 text-2xl md:text-3xl tracking-wider`}
           >
@@ -85,7 +85,7 @@ const Body = () => {
               Tackling Youth Unemployment in Nigeria: Building a Sustainable
               Future Through Skill Development and Entrepreneurship.
             </p>
-            <p className="md:text-2xl text-justify">
+            <p className="md:text-2xl textjustify">
               Participants will examine the pressing challenge of youth
               unemployment in Nigeria and propose practical, forward-looking
               solutions. Essays may focus on skill development, digital
@@ -118,7 +118,7 @@ const Body = () => {
             Prize to be won
           </p>
           <p className="text-2xl md:text-3xl lg:text-4xl tracking-wider">
-            Full Undergraduate Scholarship till completion
+            Full Undergraduate Tuition Scholarship till completion
           </p>
           {/* <Link
             href={"https://forms.gle/yrUuCnoCYNwr26pF6"}
