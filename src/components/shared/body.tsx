@@ -10,7 +10,7 @@ const indie = Indie_Flower({ weight: "400", subsets: ["latin"] });
 const Body = () => {
   return (
     <div className="">
-      <div className="p-10 md:p-14 lg:p-20 flex flex-col lg:flex-row items-start justify-between gap-10">
+      <div className="p-10 md:p-14 lg:p-20 flex flex-col lg:flex-row items-center justify-between gap-10">
         <div className="w-full lg:basis-1/2 flex justify-center">
           <Image
             src={"/soec_3.jpg"}
@@ -27,20 +27,32 @@ const Body = () => {
             "From Hashtags to Action: Gen Z's Blueprint for a Better Nigeria"{" "}
           </span>
           <span className="block md:text-xl text-justify">
-            Introduces an inspiring theme for an essay competition aimed at
-            motivating Nigeria's youth. This initiative challenges participants
-            to go beyond merely discussing Nigeria's problems on social media
-            and, instead, contribute actionable solutions for the nation's
-            progress. Essays are expected to not only identify key issues but
-            also propose innovative and practical strategies that can be
-            implemented to promote positive change in Nigeria.{" "}
-            <span className="font-black">
+            The Love in Action Foundation is committed to empowering the less
+            privileged and spreading the love of Jesus through practical acts of
+            compassion. Through healthcare initiatives, educational
+            scholarships, and welfare outreaches, the Foundation works to uplift
+            communities and equip young people with the tools to thrive.
+            <br />
+            <br />
+            This year, the Foundation continues her inspiring essay competition
+            designed to motivate Nigeria’s youth to move from online commentary
+            to real-world impact. “From Hashtags to Action: Gen Z’s Blueprint
+            for a Better Nigeria” encourages young thinkers to look beyond
+            trending conversations and craft bold, actionable solutions for
+            national transformation.
+            <br />
+            <br />
+            Our goal is to nurture a generation of young Nigerians who
+            demonstrate independent thought, critical analysis, and a passion
+            for meaningful change. Participants are challenged not only to
+            identify pressing issues, but to propose innovative and practical
+            strategies that can strengthen Nigeria’s future.
+            {/* <span className="font-black">
               Essay themes can center on creative approaches to addressing youth
               unemployment in Nigeria, including vocational skills training,
               digital education, entrepreneurial development, and broader
               economic opportunities
-            </span>
-            .
+            </span> */}
           </span>
           <Link
             href={"https://forms.gle/yrUuCnoCYNwr26pF6"}
@@ -51,6 +63,39 @@ const Body = () => {
           </Link>
         </p>
       </div>
+
+      <div className="p-10 md:p-14 lg:p-20 flex flex-col-reverse lg:flex-row items-center justify-between gap-10 bg-light">
+        <div className="p-0 lg:p-10 bgwhite rounded-md">
+          <Image
+            src={"/theme_3.png"}
+            alt=""
+            width={460}
+            height={230}
+            className=""
+          />
+        </div>
+        <div className="basis-1/2">
+          <p
+            className={`${bowlby.className} mb-4 text-2xl md:text-3xl tracking-wider`}
+          >
+            Theme for 2025
+          </p>
+          <div className="space-y-4">
+            <p className="font-semibold md:text-2xl">
+              Tackling Youth Unemployment in Nigeria: Building a Sustainable
+              Future Through Skill Development and Entrepreneurship.
+            </p>
+            <p className="md:text-2xl text-justify">
+              Participants will examine the pressing challenge of youth
+              unemployment in Nigeria and propose practical, forward-looking
+              solutions. Essays may focus on skill development, digital
+              empowerment, entrepreneurship, and other innovative strategies for
+              building a sustainable future for Nigerian youth.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="p-10 md:p-14 lg:p-20 bg-accent">
         <p
           className={`${bowlby.className} mb-4 text-2xl md:text-3xl text-light tracking-wider`}
@@ -64,6 +109,7 @@ const Body = () => {
           level.{" "}
         </p>
       </div>
+
       <div className="relative bg-[url('/prize_1.jpg')] bg-cover bg-center">
         <div className="p-10 md:p-14 lg:p-28 space-y-10 bg-black/[.90] bg-contain bg-no-repeat bg-center text-light text-center">
           <p
@@ -83,31 +129,7 @@ const Body = () => {
           </Link> */}
         </div>
       </div>
-      <div className="p-10 md:p-14 lg:p-20 flex flex-col-reverse lg:flex-row items-center justify-between gap-10 bg-light">
-        <div className="p-0 lg:p-10 bgwhite rounded-md">
-          <Image
-            src={"/theme_3.png"}
-            alt=""
-            width={460}
-            height={230}
-            className=""
-          />
-        </div>
-        <div className="basis-1/2">
-          <p
-            className={`${bowlby.className} mb-4 text-2xl md:text-3xl tracking-wider`}
-          >
-            Theme
-          </p>
-          <p className=" md:text-2xl text-justify">
-            Participants will examine the pressing challenge of youth
-            unemployment in Nigeria and propose practical, forward-looking
-            solutions. Essays may focus on skill development, digital
-            empowerment, entrepreneurship, and other innovative strategies for
-            building a sustainable future for Nigerian youth.
-          </p>
-        </div>
-      </div>
+
       <div className="p-10 md:p-14 lg:p-20 bg-touch text-light">
         <p
           className={`${bowlby.className} mb-4 text-2xl md:text-3xl tracking-wider`}
@@ -125,6 +147,7 @@ const Body = () => {
           </li> */}
         </ul>
       </div>
+
       <div className="p-10 md:p-14 lg:p-20 bg-light">
         <p
           className={`${bowlby.className} mb-4 text-2xl md:text-3xl tracking-wider`}
@@ -142,8 +165,11 @@ const Body = () => {
             essay title at the top of the first page.
           </li>
           <li>
-            No specific formatting rules (font style, size, line space, etc.)
+            {/* No specific formatting rules (font style, size, line space, etc.)
             are prescribed. However, essays must be submitted in PDF format.
+             */}
+            All essays must be typed in Times New Roman, font size 12, with 1.5
+            line spacing. The body of the essay should be fully justified.
           </li>
           <li>
             The word count limit does not include the author's name, email
