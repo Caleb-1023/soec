@@ -122,7 +122,7 @@ const Body = () => {
           <li>Essays should be composed in English.</li>
           <li>Word limit: 1500 words.</li>
           {/* <li>Essay timeline: September 2nd to October 2nd.</li> */}
-          <li>Submission deadline: December 15th 2025.</li>
+          <li>Submission deadline: December 26th 2025.</li>
           {/* <li>
             Submission portal: An online platform (e.g., Google Forms) will be
             established for essay submissions.
