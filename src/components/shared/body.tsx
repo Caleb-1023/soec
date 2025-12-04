@@ -27,26 +27,13 @@ const Body = () => {
             "From Hashtags to Action: Gen Z's Blueprint for a Better Nigeria"{" "}
           </span> */}
           <span className="block md:text-xl text-justify">
-            The Love in Action Foundation is committed to empowering the less
-            privileged and spreading the love of Jesus through practical acts of
-            compassion. Through healthcare initiatives, educational
-            scholarships, and welfare outreaches, the Foundation works to uplift
-            communities and equip young people with the tools to thrive.
+            The Love in Action Foundation is committed to empowering the less privileged and spreading the love of Jesus through practical acts of compassion. Through healthcare initiatives, educational scholarships, and welfare outreaches, the Foundation works to uplift communities and equip young people with the tools to thrive.
             <br />
             <br />
-            This year, the Foundation continues her inspiring essay competition
-            designed to motivate Nigeria’s youth to move from online commentary
-            to real-world impact. “From Hashtags to Action: Gen Z’s Blueprint
-            for a Better Nigeria” encourages young thinkers to look beyond
-            trending conversations and craft bold, actionable solutions for
-            national transformation.
+            The Foundation continues its inspiring national essay competition, “From Hashtags to Action: Gen Z’s Blueprint for a Better Nigeria.” For 2025, the theme “Towards a Safer Nigeria and the Fight Against Insecurity” challenges young Nigerians to transform their ideas into practical solutions that can help rebuild peace and enhance national security.
             <br />
             <br />
-            Our goal is to nurture a generation of young Nigerians who
-            demonstrate independent thought, critical analysis, and a passion
-            for meaningful change. Participants are challenged not only to
-            identify pressing issues, but to propose innovative and practical
-            strategies that can strengthen Nigeria’s future.
+            Our goal is to nurture a generation of young Nigerians who demonstrate independent thought, critical analysis, and a passion for meaningful change. This competition challenges students not only to highlight the key issues driving insecurity, but also to offer creative strategies that can strengthen Nigeria’s future and contribute to a safer society for all.
             {/* <span className="font-black">
               Essay themes can center on creative approaches to addressing youth
               unemployment in Nigeria, including vocational skills training,
@@ -82,15 +69,10 @@ const Body = () => {
           </p>
           <div className="space-y-4">
             <p className="font-semibold md:text-2xl">
-              Tackling Youth Unemployment in Nigeria: Building a Sustainable
-              Future Through Skill Development and Entrepreneurship.
+              Towards a Safer Nigeria and the Fight Against Insecurity.
             </p>
             <p className="md:text-2xl textjustify">
-              Participants will examine the pressing challenge of youth
-              unemployment in Nigeria and propose practical, forward-looking
-              solutions. Essays may focus on skill development, digital
-              empowerment, entrepreneurship, and other innovative strategies for
-              building a sustainable future for Nigerian youth.
+              Participants will explore Nigeria’s growing security challenges and propose practical, youth-driven solutions for building a safer and more stable nation. Essays may examine the roots of insecurity and highlight innovative approaches such as community engagement, technology-driven safety initiatives, policy reforms, peacebuilding efforts, and strategies that empower young people to play an active role in restoring national security.
             </p>
           </div>
         </div>
