@@ -33,8 +33,7 @@ const Hero = () => {
             From #ashtags to Action
           </h1>
           <h2 className={`${delius.className} text-lg md:text-3xl`}>
-            Tackling Youth Unemployment in Nigeria: Building a Sustainable
-            Future Through Skill Development and Entrepreneurship
+            Gen Z’s Blueprint for a Better Nigeria: Towards a Safer Nigeria and the Fight Against Insecurity
           </h2>
           <p className="text-sm md:text-base">
             Powered by Love In Action Foundation
